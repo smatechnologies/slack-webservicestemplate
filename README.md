@@ -1,16 +1,17 @@
-# Project Name
-Project description
+# Slack messages from OpCon
+This example shows how you can run the Web Services connector to send a message to a webspace in Slack. The message could be information about a failed job or other pertinent alerts.
+
+# Prerequisites
+* Slack (with access to <a href="https://api.slack.com/messaging/webhooks">Incoming Webhooks</a>
+* OpCon 18.3+
+
+# Instructions
+There are many applications for this example but a common use case would be to send a Slack message when an OpCon job fails.  One way to set this up would be to create a trigger in Notification Manager when a job fails.  The trigger would execute a "Run Command" option and pass the necessary information about the failed job to the Web Services connector.
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
 
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
-
-# Prerequisites
-
-
-# Instructions
-
 
 # License
 Copyright 2019 SMA Technologies
