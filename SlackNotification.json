@@ -1,0 +1,24 @@
+{
+  "templateid" : "SLACK_NOTIFICATION",
+  "steps" : [ {
+    "function" : "POST",
+    "url" : "https://hooks.slack.com/services/<your url>",
+    "proxyServer" : null,
+    "request" : {
+      "headers" : [ ],
+      "contentType" : "application/json",
+      "body" : "{\"text\":\"Date: [[$DATE]]\\nSchedule: [[JI.[[$SCHEDULE NAME]]\\nJob: [[JI.$JOB NAME]]\"}",
+      "fileName" : null
+    },
+    "response" : {
+      "contentType" : "application/json",
+      "variables" : [ ],
+      "ignoreResult" : false,
+      "stepCompletionCode" : 200,
+      "responseDataCheck" : null,
+      "fileName" : null
+    }
+  } ],
+  "variables" : [ ],
+  "properties" : [ ]
+}
