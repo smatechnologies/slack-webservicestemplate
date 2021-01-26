@@ -7,7 +7,7 @@
     "request" : {
       "headers" : [ ],
       "contentType" : "application/json",
-      "body" : "{\"text\":\"Date: [[$DATE]]\\nSchedule: [[JI.[[$SCHEDULE NAME]]\\nJob: [[JI.$JOB NAME]]\"}",
+      "body" : "{\"text\":\"Date: [[$DATE]]\\nSchedule: [[JI.$SCHEDULE NAME]]\\nJob: [[JI.$JOB NAME]]\"}",
       "fileName" : null
     },
     "response" : {
